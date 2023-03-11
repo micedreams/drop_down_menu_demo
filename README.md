@@ -4,7 +4,6 @@ https://user-images.githubusercontent.com/8918999/224479811-b0e2292b-e54b-4213-8
 
 ## Overview
 ### what is a drop-down menu?
-
 * It is a list. A graphical control element that lets a user pick one value from a list.
 * It has two states, active and inactive.
 * When a drop-down is inactive, it displays a single value.
@@ -16,12 +15,12 @@ https://user-images.githubusercontent.com/8918999/224479811-b0e2292b-e54b-4213-8
 
 ## Scope
 ### Drop-down in flutter
-* Drop-down comes out of the box in flutter. 
+* Drop-down comes out of the box in Flutter. 
 * It is called the [DropdownButton](https://api.flutter.dev/flutter/material/DropdownButton-class.html) widget.
 * DropdownButton accepts two required parameters, items and onChanged.
-* The items are the list of objects of type [DropdownMenuItem](https://api.flutter.dev/flutter/material/DropdownMenuItem-class.html) that the user see and in the drop-down menu. Ï
-* The onChanged is the function that is called to update the state of the variable that holds on to the value of this DropdownButton.
-* DropdownButton also accpets many other optional parameters that helps in changing up the User Interface of the drop-down menu. 
+* The items are the list of objects of type [DropdownMenuItem](https://api.flutter.dev/flutter/material/DropdownMenuItem-class.html) that the user sees in the drop-down menu. Ï
+* The onChanged is the function that is called to update the state of the variable that holds onto the value of this DropdownButton.
+* DropdownButton also accepts many other optional parameters that help in changing up the User Interface of the drop-down menu.
 
 ``` dart 
 DropdownButton<T>(
@@ -39,18 +38,15 @@ DropdownButton<T>(
 1. Create a list that has to be shown in the form of a menu.
 
 ```dart
-
 class _MyHomePageState extends State<MyHomePage> {
   final list = ['','A', 'B', 'C', 'D'];
   .....
 }
 ```
 
-2. Create a variable that can hold on to the selected value.
+2. Create a variable that can hold onto the selected value.
 3. Set the variable with an initial value. This must belong to the above list.
-
 ```dart
-
 class _MyHomePageState extends State<MyHomePage> {
   final list = ['','A', 'B', 'C', 'D'];
   String item = '';
@@ -60,9 +56,8 @@ class _MyHomePageState extends State<MyHomePage> {
 ```
 
 4. In the build method create a new list variable called the itemList.
-5. Create DropdownMenuItem type objects using the list and add it to the new itemList.
+5. Create DropdownMenuItem type objects using the list and add them to the new itemList.
 ```dart
-
 class _MyHomePageState extends State<MyHomePage> {
   .....
   
@@ -160,13 +155,13 @@ class _MyHomePageState extends State<MyHomePage> {
 ```
 
 ## Takeaways
-* Flutter uses a widget called DropdownButton to create drop-down menu.
-* Create a variable that can hold on to the selected value.
-* Create list  of DropdownMenuItem type objects.
-* Add DropdownButton widget to the desired place. 
+* Flutter uses a widget called DropdownButton to create a drop-down menu.
+* Create a variable that can hold onto the selected value.
+* Create a list of DropdownMenuItem type objects.
+* Add the drop-down button widget to the desired place. 
 * Give its items parameter the itemList value.
 * Fix the onChanged function to update the selected value variable.
-* To add custom UI you can always add values to the various DropdownButton parameters and make it your own.
+* To add a custom user-interface you can always add values to the various DropdownButton parameters and make it your own.
 
 ```dart=
 DropdownButton({
