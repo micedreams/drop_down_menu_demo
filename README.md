@@ -204,3 +204,6 @@ It can be tricky to decide when to use a drop-down instead of another interface 
 
 ![Before selction](https://user-images.githubusercontent.com/8918999/224479733-6c83028e-b346-4c59-9649-3ef2fbb88c87.png)
 ![After selction](https://user-images.githubusercontent.com/8918999/224479746-ce48a3ec-4c7c-4340-8c8e-144254b502a0.png)
+
+
+This is one of the articles I wrote for [Scaler](www.scaler.com).Thanks for reading.
