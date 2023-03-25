@@ -1,6 +1,5 @@
 # Dropdown in flutter
-
-
+https://user-images.githubusercontent.com/8918999/224479811-b0e2292b-e54b-4213-8307-526cb35212ea.mov
 ## what is a drop-down menu?
 * It is a list. A graphical control element that lets a user pick one value from a list.
 * It has two states, active and inactive.
@@ -101,7 +100,7 @@ and Thats it.
 
 
 Thanks for reading.
-https://user-images.githubusercontent.com/8918999/224479811-b0e2292b-e54b-4213-8307-526cb35212ea.mov
+
 ![Before selction](https://user-images.githubusercontent.com/8918999/224479733-6c83028e-b346-4c59-9649-3ef2fbb88c87.png)
 ![After selction](https://user-images.githubusercontent.com/8918999/224479746-ce48a3ec-4c7c-4340-8c8e-144254b502a0.png)
 
